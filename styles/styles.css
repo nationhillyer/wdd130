@@ -1,5 +1,6 @@
 :root{
     --color-dark-blue: darkblue;
+    --rem-amount: 1rem;
 }
 
 
@@ -37,9 +38,9 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--rem-amount);
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    padding: var(--rem-amount);
     background-color: #eee;
     color: #333;
     text-align: center;
